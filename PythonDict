@@ -1,0 +1,21 @@
+#!/usr/bin/env python3.7
+
+#Allows us to interact with the operating system Python is using
+import os
+
+#Retrieves our list of files in our current working directory
+files = os.listdir()
+
+#Creates an empty list for us to store our dictionaries
+file_info = []
+
+#Pulls info for each file and creates a dictionary with the file name
+file_dict = {"name": file_name}
+
+#Adds the info stored in the dictionary to our list
+file_info.append(file_dict)
+
+#Returns the size of the file
+os.path.getsize(file_name)
+ 
+print(file_info)
